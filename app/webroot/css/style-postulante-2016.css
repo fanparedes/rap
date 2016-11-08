@@ -1,0 +1,203 @@
+html, body {
+	height: 100%;
+				font-family: 'Open Sans Condensed', sans-serif;
+				color: #666;
+				background-color:#E2E2E2; 
+}
+			input,select,textarea{
+				font-family: 'Open Sans Condensed', sans-serif;
+				color: #666;
+			}
+			.top{
+				background-color:#002d56;
+				height:5px;
+			}
+			.menu-home{
+				text-align:right;
+				height:60px;
+				
+			}
+			.content-menu{
+				width:98% !important;
+				margin-left:1% !important;
+			}
+			.menu-home ul{margin-top:10px;}
+			.menu-home ul,.menu-home li{
+				list-style:none;
+				display:inline-block;
+				padding: 0;
+				list-style-type: none;
+			}
+			
+			.menu-home li *{
+				display:inline-block;
+			}
+			.menu-home li a{
+				margin-left:30px;
+			}
+			.li-menu{
+				height:30px;
+				width:40px;
+				text-align:center;
+				padding-top:10px;
+				margin:0;
+				font-size:24px;
+				float:left;
+			}
+			.li-menu-texto:hover{
+				background-color:#002d56;
+				color:#fff;	
+			}
+			
+			.li-menu-texto{
+				
+				height:30px;
+				padding:10px 20px 0 20px ;
+				font-weight:700;
+				background-color:#cac9c9;
+				color:#012c56;
+			}
+			.li-menu-red{
+				color: #fff;
+				background-color: #b94a48;
+				border-color: #eed3d7;
+			}
+			.li-menu-green{
+				color:  #fff;
+				background-color: #468847;
+				border-color: #d6e9c6;
+			}
+			.li-menu-orange{
+				color:  #fff;
+				background-color: #f39c12;
+				border-color: #f39c12;
+			}
+			.body-content{
+				min-height:650px;
+				/*background:url('<?php echo $this->Html->url('/img/duoc-valpo.jpg');?>') no-repeat left top #002d56;*/
+				margin-bottom:50px;
+				background-color:#fff;
+				-moz-border-radius: 10px;
+			    -webkit-border-radius: 10px;
+			    border-radius: 10px;
+				border-bottom:4px solid #002d56;border-top:4px solid #002d56;
+				margin-top:25px;
+				padding-bottom:25px;
+				
+			}
+			
+			footer{
+				background: #012c56;
+				border-top: 5px solid #fbb32b;
+				color:#fff;
+			}
+			
+			footer a{
+				color:#fff;
+			}
+			
+			.welcome{
+				background-color: #0094ab;
+				color:#fff;
+				margin-top:20px;
+				padding:10px 10px 10px 15px;
+			}
+			
+			.btn-registrarse{
+				background: #f39c12;
+				font-size: 18px;
+				padding: 17px 25px;
+				color: #FFF;
+				text-shadow: 1px 1px 0 rgba(0,0,0,.3);
+				font-weight: bold;
+			}
+			.btn-registrarse:hover{
+				background-color:#012c56;
+				color:#fff;
+			}
+			.content-login{
+				background-color:#fff;
+			    -moz-border-radius: 20px;
+			    -webkit-border-radius: 20px;
+			    border-radius: 20px;	
+			}
+			.legend-rap{
+				text-align:right;
+				margin-top:15px;
+			}
+			.legend-rap h3{
+				line-height:0;
+				font-size:27px;
+				padding:0;
+				position:relative;
+			}
+			.mensajes{
+				margin-top:10px;
+			}
+			.header{
+				margin:10px 0;
+			}
+			
+	.login h2{
+		font-size:1.2em;
+		margin:10px 0;
+		padding:0;
+		line-height:25px;
+	}
+	
+	.profile-img{
+	    width: 65px;
+	    height: 65px;
+	    margin: 0 auto 10px;
+	    display: block;
+	    -moz-border-radius: 50%;
+	    -webkit-border-radius: 50%;
+	    border-radius: 50%;
+	}
+	.login-well{
+		margin-left:12px !important;
+		margin-top:15px !important;
+	}
+	.olvido-pass{
+		text-align:right;
+	}
+				
+
+
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -142px; 
+  width:100%;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 142px;
+}
+.site-footer {
+	background:#002d56;
+	height:150px;
+	text-align:center;
+	padding:20px;
+	position:relative;
+	margin-top:-142px;
+	clear:both;
+}
+
+#header {
+	background:#002d56;
+	padding:40px 10px;
+	text-align:center;
+}
+#content {
+	padding-bottom:100px; /* Height of the footer element */
+	padding-top:30px;
+	text-align:center;
+}
+
+.letra{
+	font-weight:300!important;
+	font-family: 'Open Sans Condensed', sans-serif!important;
+}

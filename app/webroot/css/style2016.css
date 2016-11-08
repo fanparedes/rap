@@ -1,0 +1,170 @@
+html, body {
+	height: 100%;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:12px;
+}
+
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -142px; 
+  width:100%;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 142px;
+}
+.site-footer {
+	background:#002d56;
+	height:150px;
+	text-align:center;
+	padding:20px;
+	position:relative;
+	margin-top:-142px;
+	clear:both;
+}
+
+#header {
+	background:#002d56;
+	padding:40px 10px;
+	text-align:center;
+}
+#content {
+	padding-bottom:100px; /* Height of the footer element */
+	padding-top:30px;
+	text-align:center;
+}
+
+.registro{
+	width:55%;
+	border:1px solid #e6e6e6;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding:20px;
+	margin:0 auto;
+	position:relative;
+	margin-bottom:30px;
+	margin-top:5px;
+}
+
+
+
+	.btn-registrarse{
+		background: #f39c12;
+		font-size: 18px;
+		padding: 17px 25px;
+		color: #FFF;
+		/* margin-left:58px; */
+		text-shadow: 1px 1px 0 rgba(0,0,0,.3);
+		font-weight: bold;
+	}
+	
+	.btn-registrarse:hover{
+		background-color:#012c56;
+		color:#fff;
+	}
+
+	.login h2{
+		font-size:1.2em;
+		margin:10px 0;
+		padding:0;
+		line-height:25px;
+	}
+	
+	.login{
+		width:33%;
+		position:relative;
+		margin:0 auto;	
+		margin-top:30px;
+		margin-bottom:30px;
+	}
+	
+	#boton-registro{
+		width:400px;
+		text-align:center;
+		position:relative;
+		/* margin-left:31.2%; */
+		margin-bottom:35px;
+		
+	}
+	
+	.profile-img{
+	    width: 65px;
+	    height: 65px;
+	    margin: 0 auto 10px;
+	    display: block;
+	    -moz-border-radius: 50%;
+	    -webkit-border-radius: 50%;
+	    border-radius: 50%;
+	}
+	.login-well{
+		/* margin-left:12px !important; */
+		margin-top:15px !important;
+	}
+	.olvido-pass{
+		text-align:right;
+	}
+	
+	.profile-img{
+	    width: 65px;
+	    height: 65px;
+	    margin: 0 auto 10px;
+	    display: block;
+	    -moz-border-radius: 50%;
+	    -webkit-border-radius: 50%;
+	    border-radius: 50%;
+	}
+	.login-well{
+		/* margin-left:12px !important;*/
+		margin-top:15px !important;
+	}
+	.olvido-pass{
+		text-align:right;
+	}
+	.content-login-restablecer{
+		width: 26.9%;
+		position: absolute;
+		top: 107px;
+		left: 65.7%;
+	}	
+	
+	
+	
+@media (min-width: 768px) and (max-width: 979px) {
+	.registro{
+		width:75%;
+	}
+}		
+
+
+@media (max-width: 768px) {
+
+	body {
+		padding-right: 0px!important;
+		padding-left: 0px!important;
+	}
+	
+	.registro{
+		width:85%;
+	}
+
+	.login{
+		width:85%;
+		position:relative;
+		margin:0 auto;	
+		margin-top:30px;
+		margin-bottom:30px;
+	}
+	
+	#boton-registro{
+		width:auto;
+		text-align:center;
+		position:relative;
+		margin-left:6%;		
+		margin-right:6%;		
+	}
+
+}

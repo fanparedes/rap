@@ -1,0 +1,34 @@
+.subtitle{
+	color:#6E6E6E;
+	border-bottom:1px solid #6e6e6e;	
+	margin-bottom:30px;
+}
+
+.margen{
+	margin-bottom:15px!important;	
+}
+
+.radio{
+	display: inline-flex;
+	margin-left:-20px;
+}
+
+.radio label{ margin-right:26px!important;}
+.resumen {
+    border: 1px solid #E2E2E2;
+    margin-left: 1%;
+    width: 100%;
+	padding:25px
+}
+
+.verde{
+	font-weight:bold;
+	font-size:16px;
+	color:#49d000;
+}
+
+.rojo{
+	font-weight:bold;
+	font-size:16px;
+	color:#d62626;
+}
