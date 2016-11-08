@@ -49,7 +49,7 @@ table{
 												<th>CARRERA</th>
 												<?php 
 												if ($si_en_revision) { ?>
-													<th> <?php echo htmlentities('EN REVISIÓN');?></th>
+													<th> <?php echo utf8_decode('EN REVISIÓN');?></th>
 												<?php } ?>
 												<?php 
 												if ($si_habilitado_sin_firma) { ?>
@@ -101,10 +101,10 @@ table{
 													?>
 														<tr>
 															<td>
-																<?php echo htmlentities($total['nombre_escuela']); ?>
+																<?php echo utf8_decode($total['nombre_escuela']); ?>
 															</td>
 															<td>
-															<?php echo htmlentities($carrera['nombre_carrera']); ?>
+															<?php echo utf8_decode($carrera['nombre_carrera']); ?>
 															</td>
 												<?php 
 												if ($si_en_revision) { ?>
@@ -221,7 +221,7 @@ table{
 						</div>														
 					</div>
 					<br>
-					<H4 style="margin-top:50px;"><span id="img-check-licencia" align="left"></span>&nbsp;<?php echo htmlentities('Distribución Total de postulaciones "En Revisión"'); ?>:</h4>
+					<H4 style="margin-top:50px;"><span id="img-check-licencia" align="left"></span>&nbsp;<?php echo utf8_decode('Distribución Total de postulaciones "En Revisión"'); ?>:</h4>
 					<div class="row-fluid">										
 						<div class="span6">
 								<table class="table table-striped table-bordered" border="1" style="color:1 px solid black">
@@ -236,7 +236,7 @@ table{
 										foreach($totales_1 as $total) { ?>
 										<tr>
 											<td>
-											<?php echo htmlentities($total['nombre_escuela']); ?>
+											<?php echo utf8_decode($total['nombre_escuela']); ?>
 											</td>
 											<td>
 											<?php echo $total['en_revision']; 

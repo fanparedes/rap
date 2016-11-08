@@ -175,10 +175,10 @@ table{
 															<tr>
 															<!-- fin de la suma -->
 															<td>
-																<?php echo htmlentities($total['nombre_escuela']); ?>
+																<?php echo utf8_decode($total['nombre_escuela']); ?>
 																</td>
 															<td>
-															<?php echo htmlentities($carrera['nombre_carrera']).' total:'.$t; ?>
+															<?php echo utf8_decode($carrera['nombre_carrera']).' total:'.$t; ?>
 															</td>
 
 
