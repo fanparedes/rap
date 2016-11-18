@@ -48,7 +48,7 @@ table{
 												<th>CARRERA</th>
 												<?php 
 												if ($si_en_revision) { ?>
-													<th><?php echo utf8_decode('EN REVISIÓN'); ?></th>
+													<th><?php echo htmlentities('EN REVISIÓN'); ?></th>
 												<?php } ?>
 												<?php 
 												if ($si_habilitado_sin_firma) { ?>
@@ -114,7 +114,7 @@ table{
 													?>
 															<tr>
 																<td>
-																<?php echo utf8_decode($carrera['nombre_carrera']); ?>
+																<?php echo htmlentities($carrera['nombre_carrera']); ?>
 																</td>
 													<?php 
 													if ($si_en_revision) { ?>
